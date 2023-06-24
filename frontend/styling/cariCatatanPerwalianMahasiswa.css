@@ -169,7 +169,7 @@ span.material-symbols-outlined.search{
 .historyButtonTrue{
     background-color: white;
     border-radius: 0.4rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.4rem 0.5rem;
     border: none !important;
     outline: none !important;
     color: #3C2A21;
@@ -182,7 +182,7 @@ span.material-symbols-outlined.search{
 .historyButtonTrue:hover{
     background-color: rgb(235, 235, 235);
     border-radius: 0.4rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.4rem 0.5rem;
     border: none !important;
     outline: none !important;
     color: #3C2A21;
@@ -196,7 +196,7 @@ span.material-symbols-outlined.search{
 .historyButtonFalse{
     background-color: #E5E5CB;
     border-radius: 0.4rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.4rem 0.5rem;
     border: none !important;
     color: #3C2A21;
     outline: none;
@@ -208,7 +208,7 @@ span.material-symbols-outlined.search{
 .historyButtonFalse:focus{
     background-color: #E5E5CB;
     border-radius: 0.4rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.4rem 0.5rem;
     border: none !important;
     color: #3C2A21;
     outline: none;
@@ -254,20 +254,24 @@ span.material-symbols-outlined.search{
     font-size: inherit;
 }
 
-.material-symbols-outlined.bullet.align-middle:nth-child(1){
+.mahasiswa{
     font-size: inherit;
     color: #DC3545;
 }
 
-.material-symbols-outlined.bullet.align-middle:nth-child(3){
+.orangTuaWali{
     font-size: inherit;
     color: #007BFF;
 }
 
-.material-symbols-outlined.bullet.align-middle:nth-child(5){
+.orangTuaWaliDanMahasiswa{
     font-size: inherit;
     color: #28A745;
 }
+#test{
+    width: 90%;
+}
+
 #garisMahasiswa{
     margin-left: auto;
     margin-right: auto;
@@ -280,7 +284,7 @@ span.material-symbols-outlined.search{
     margin-top: -0.2rem;
 }
 
-#garisOrangTua{
+#garisOrangTuaWali{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -292,7 +296,7 @@ span.material-symbols-outlined.search{
     margin-top: -0.2rem;
 }
 
-#garisOrangTuaMahasiswa{
+#garisOrangTuaWaliMahasiswa{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -302,6 +306,32 @@ span.material-symbols-outlined.search{
     border-radius: 0.6rem;
     margin-bottom: 0.5rem;
     margin-top: -0.2rem;
+}
+
+/* ///////////////////////////// */
+
+.garisMahasiswa{
+    width: 15%;
+    display: block;
+    border-radius: 0.6rem;
+    margin-top: rem;
+    border-bottom: 5px solid #DC3545;
+}
+
+.garisOrangTuaWali{
+    width: 15%;
+    display: block;
+    border-radius: 0.6rem;
+    margin-top: rem;
+    border-bottom: 5px solid #007BFF;
+}
+
+.garisOrangTuaWaliDanMahasiswa{
+    width: 15%;
+    display: block;
+    border-radius: 0.6rem;
+    margin-top: rem;
+    border-bottom: 5px solid #28A745;
 }
 .material-symbols-outlined.history{
     font-size: 1.75rem;
@@ -315,7 +345,9 @@ span.material-symbols-outlined.search{
     font-family: inter;
 }
 
-
+.judulCatatanHistoris{
+    cursor: pointer;
+}
 #itemCatatanPerwalian{
     background-color: white;
     border-radius: 0.5rem;
@@ -344,7 +376,7 @@ span.material-symbols-outlined.search{
 #agendaPerwalian{
     color: #0D0C1D !important;
     font-size: 1rem;
-    font-weight: inter;
+    font-family: inter !important;
     text-align: justify;
     margin-top: 1rem;
     margin-bottom: 0rem;
@@ -369,18 +401,27 @@ span.material-symbols-outlined.search{
     font-weight: bold;
     font-family: inter;   
 }
-
+.iconHistory{
+    width: 50px;
+    height: 30px;
+    padding-left: 1.2rem;
+}
+.material-symbols-outlined.history{
+    font-size: 24px !important;
+    margin-right: 0.4rem;
+}
 .material-symbols-outlined.itemHistory{
-    font-size: 1.5rem !important;
+    font-size: 1.8rem !important;
     position: absolute;
-    padding: 0.1rem 0rem;
     background-color: white;
+    vertical-align: middle;
 }
 
 #tanggalPerwalian p{
-    margin-left: 1.8rem;
+    margin-left: 1.3rem;
     margin-bottom: 0rem !important;
     font-family: inter;
+    font-size: 1rem !important;
 }
 
 #tanggalPerwalian p:nth-child(1){
@@ -388,7 +429,7 @@ span.material-symbols-outlined.search{
 }
 
 #tanggalPerwalian p:nth-child(2){
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 #tahunCatatanPerwalian{
     z-index: 1;
@@ -396,25 +437,62 @@ span.material-symbols-outlined.search{
 }
 
 #garis{
-    height: 50%;
+    width: 1px;
+    height: 100%;
     border-left: 3px solid #E5E5CB;
     /* z-index: 1; */
     position: absolute;
     margin-left: 1rem;
 }
 
-
-#test #itemHistoryBundle:nth-child(2){
+#itemHistoryBundle:nth-child(1){
     /* z-index: -1; */
     margin-top: 3rem;
 }
+
+
 
 #cardPreviewCatatan{
     box-shadow: 7px 7px 37px -4px rgb(0 0 0 / 25%);
     border: none;
     border-radius: 0.5rem;
+    font-family: inter;
 }
 
+#cardPreviewCatatan h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#cardPreviewCatatan h6{
+    font-size: 1rem;
+}
+
+#cardPreviewCatatan p{
+    font-size: 1rem;
+}
+#cardPreviewCatatan u{
+    font-weight: bold;
+    color: #007BFF;
+}
+
+p#suggestText{
+    text-align: center;
+    font-size: 1.2rem !important;
+    margin: 0;
+    padding: 2rem 0rem;
+}
+
+#mySticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    transition: 0.4s ease-in-out ;
+}
+
+.paddingTop{
+    padding-top: 6rem;
+}
 #cardPreviewCatatan .card-link{
     color: #3C2A21;
     text-decoration: underline;

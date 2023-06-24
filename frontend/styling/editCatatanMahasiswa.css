@@ -186,13 +186,13 @@ body{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+/* inputan judul konsul mahasiswa */
 #inputJudulKonsul{
     vertical-align: middle;
-    width: 77% !important;
+    width: 85% !important;
     height: 2.5rem;
-    border-radius: 0.6rem 0rem 0rem 0.6rem !important;
+    border-radius: 0.6rem  !important;
     border: 2px solid #878787;
-    border-right: none !important;
     font-size: 0.9rem;
     padding: 0rem 0rem 0rem 0.5rem;
     
@@ -207,18 +207,7 @@ body{
     box-shadow: 0px 0px 3px 3px #E5E5CB;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-#dropdownMenuButton2{
-    width: 10%;
-    height: 100%;
-    padding: 0rem;
-    margin-left: 0rem;
-    vertical-align: middle;
-    /* margin-top: 0rem;
-    margin-left: 0rem; */
-    border-radius: 0rem 0.6rem 0.6rem 0rem;
-    border:2px solid #878787 ;
-    border-left: none;
-}
+
 
 #dropdownMenuButton2:focus{
 
@@ -451,9 +440,14 @@ body{
 
 #judulPresensi{
     font-weight: bold;
+    font-family: inter;
     color:#0D0C1D;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
+#presensiMahasiswa{
+    font-family: inter;
+}
+
 
 /* .btn{
     padding: 0.2rem 1rem !important;

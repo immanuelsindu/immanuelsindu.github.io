@@ -479,7 +479,7 @@ li.itemInfoMahasiswaBimbingan div a{
     font-size: inherit;
     color: #FFC107;
 }
-#garisMahasiswa{
+.garisMahasiswa{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -491,7 +491,7 @@ li.itemInfoMahasiswaBimbingan div a{
     margin-top: -0.2rem;
 }
 
-#garisOrangTua{
+.garisOrangTuaWali{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -503,7 +503,7 @@ li.itemInfoMahasiswaBimbingan div a{
     margin-top: -0.2rem;
 }
 
-#garisOrangTuaMahasiswa{
+.garisOrangTuaWaliMahasiswa{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -515,7 +515,7 @@ li.itemInfoMahasiswaBimbingan div a{
     margin-top: -0.2rem;
 }
 
-#garisOrangTuaMahasiswa{
+.garisGrupAngkatan{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -781,6 +781,15 @@ a.lihatSelengkapnya {
     box-shadow: 7px 7px 36px -4px rgb(0 0 0 / 25%);
     padding: 1.5rem 2.3rem 2rem;
 }
+
+#pagination{
+
+}
+
+#itemCatatanGrupAngkatan{
+    margin-top: 3rem;
+}
+
 
 /* transisi vue preferensi */
 .v-enter-active,

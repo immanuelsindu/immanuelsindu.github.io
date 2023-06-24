@@ -12,6 +12,22 @@ body{
     margin: 0rem;
     font-family: inter !important;
 }
+.material-symbols-outlined.close.ml-2{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    font-size: 1.2rem;
+
+}
+.material-symbols-outlined.add.text-success{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -98,9 +114,7 @@ body{
 .breadCrumb{
     font-size: 0.8rem;
 }
-#tambahCatatan{
-    /* width: 100%; */
-}
+
 #logoutUser{
     color: #3C2A21;
     text-decoration: none;
@@ -175,7 +189,7 @@ body{
 }
 
 #inputNamaOrangTua{
-    width: 100%;
+    width: 80%;
     height: 2.5rem;
     border-radius: 0.6rem;
     box-sizing: border-box;
@@ -193,12 +207,12 @@ body{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-#inputJudulKonsul{
-    width: 77% !important;
+.inputJudulKonsul2{
+    width: 75% !important;
     height: 2.5rem;
     border-radius: 0.6rem 0rem 0rem 0.6rem !important;
-    border: 2px solid #878787;
     border-right: none !important;
+    border: 2px solid #878787;
     font-size: 0.9rem;
     padding-left: 0.5rem;
     vertical-align: middle;
@@ -206,6 +220,20 @@ body{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     outline: none;
 }
+
+.inputJudulKonsul{
+    width: 85% !important;
+    height: 2.5rem;
+    border-radius: 0.6rem !important;
+    border: 2px solid #878787;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    vertical-align: middle;
+    /* box-sizing: border-box; */
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: none;
+}
+
 #inputJudulKonsul:focus{
     outline: none;
     border-radius: 0.6rem;
@@ -286,6 +314,15 @@ body{
     margin-bottom: 0.5rem;
 }
 
+#judulItemPerCatatan2{
+    font-family: inter;
+    color: #0D0C1D;
+    border-radius: 0.625rem;
+    font-weight: normal;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
 
 #judulTambahMahasiswa{
     font-weight: bold;
@@ -293,7 +330,7 @@ body{
 }
  
 #inputCariMahasiswa{
-    width: 90% !important;
+    width: 82% !important;
     height: 2.5rem;
     padding-left: 2.2rem !important;
     font-size: 0.9rem;
@@ -320,6 +357,7 @@ body{
 }
 #cariTambahMahasiswa span{
     position: absolute;
+    clear: both;
 
 }
 
@@ -399,6 +437,40 @@ body{
     font-family: inter ;
 }
 
+#judulPresensi p {
+    font-size: 1.2rem;
+}
+
+#presensiMahasiswa2{
+    width: 100%;
+    height: 18vh;
+}
+
+.presensiMahasiswa{
+    width: 50%;
+    height: max-content;
+
+    margin: 0rem 25%;
+    padding: 1rem;
+    border-radius: 0.625rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 7px 7px 36px -4px rgb(0 0 0 / 25%);
+    transition: 0.2s ease-in-out all;  
+}
+
+.presensiMahasiswa:hover{
+    margin-bottom: 0.3rem ;
+    cursor: pointer;
+    box-shadow: 7px 7px 36px -4px rgba(0, 0, 0, 0.308);
+    transition: 0.2s ease-in-out all;  
+}
+
+.presensiMahasiswa p{
+    font-size: 1.2rem;
+    margin: 0rem;
+}
+
 .v-enter-active,
 .v-leave-active {
   transition: opacity 0.5s ease;
@@ -430,4 +502,74 @@ body{
 #logoutUser{
     color: #3C2A21;
     text-decoration: none;
+}
+
+#daftarPesertaLainnya{
+    position: absolute;
+    width: 80%;
+    height: 12.5rem;
+    background-color: white;
+    margin-right: 0rem;
+    border-radius: 0.625rem;
+    border:2px solid #878787 ;
+    overflow-y: scroll;
+}
+#daftarPesertaLainnya2{
+    position: absolute;
+    width: 90%;
+    height: 12.5rem;
+    background-color: white;
+    margin-right: 0rem;
+    border-radius: 0.625rem;
+    border:2px solid #878787 ;
+    overflow-y: scroll;
+}
+
+#daftarPesertaLainnya ol{
+    width: 100%;
+}
+#daftarPesertaLainnya li{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    line-height: 1.8rem;
+}
+#daftarPesertaLainnya2 li{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    line-height: 1.8rem;
+}
+.material-symbols-outlined.add.text-success:hover{
+    cursor: pointer;
+}
+.material-symbols-outlined.delete.text-danger:hover{
+    cursor: pointer;
+}
+#iconCari{
+    color: #878787;
+    position: absolute;
+}
+#iconClose{
+    color: #878787;
+    position: absolute;
+    right: 23%;
+}
+#iconClose:hover{
+    cursor: pointer;
+}
+
+#hoverCariPeserta{
+    width: 85%;
+    height: max-content;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 7px 7px 36px -4px rgb(0 0 0 / 25%);
+    border-radius: 0.625rem;
+}
+
+#hoverCariPeserta ul li{
+    border: none;
+}
+#hoverCariPeserta ul li:hover{
+  
+    background-color: #edeaea;
 }

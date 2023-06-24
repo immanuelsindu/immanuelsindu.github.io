@@ -215,6 +215,18 @@ span.material-symbols-outlined.search{
     margin-bottom: 0.5rem;
     
 }
+#garisOrangTuaDanMahasiswa{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* position: absolute; */
+    display: block;
+    border-bottom: 5px solid #28A745;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+    
+}
+
 #garisOrangTuaMahasiswa{
     margin-left: auto;
     margin-right: auto;
@@ -230,8 +242,8 @@ span.material-symbols-outlined.search{
     color: #007BFF;
 }
 #itemCatatanPerwalian{
-    width: 23rem;
-    /* height: 18.125rem; */
+    width: 100%;
+    height: auto;
     background-color: white;
     border-radius: 0.5rem;
     padding: 1.2rem 2rem 0.8rem;
@@ -245,8 +257,15 @@ span.material-symbols-outlined.search{
     font-family: inter;
     margin-bottom: 0rem;
 }
+#containerAgenda{
+    height: 8rem;
+    overflow-wrap: break-word;
+    text-align: justify;
 
-#infoCatatan p:nth-child(2){
+}
+
+#infoCatatan p:nth-child(2),#infoCatatan p:nth-child(3){
+    width: 80%;
     font-size: 0.9rem;
     font-weight: inter;
     margin-bottom: 0rem;
@@ -257,12 +276,19 @@ span.material-symbols-outlined.search{
 
 #agendaPerwalian{
     color: #0D0C1D !important;
+    font-family: inter !important;
     font-size: 1rem;
+    word-wrap: break-word;
     font-weight: inter;
     text-align: justify;
     margin-top: 1rem;
     margin-bottom: 0rem;
 
+}
+
+#agendaPerwalian .m-0{
+    /* padding-top: 2rem; */
+    text-align: justify;
 }
 
 #iconDelete{
@@ -301,6 +327,7 @@ span.material-symbols-outlined.search{
 #tombolEditAchive{
     width: 100%;
     height: 40px;
+    bottom: 0rem !important;
     /* background-color: red; */
 }
 
@@ -467,4 +494,9 @@ span.material-symbols-outlined.search{
 #logoutUser{
     color: #3C2A21;
     text-decoration: none;
+}
+
+#myVueContainer{
+    width: 700px;
+    height: max-content;
 }

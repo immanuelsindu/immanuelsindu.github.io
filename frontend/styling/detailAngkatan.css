@@ -136,6 +136,7 @@ body{
 #itemCatatan { 
     flex: none !important;
     width: 16rem !important;
+    word-wrap: break-word;
     height: 19rem;
     background-color: white !important;
     box-shadow: 7px 7px 37px -4px rgba(0, 0, 0, 0.25) !important;
@@ -162,8 +163,8 @@ body{
 }
 
 #judulCatatan p:nth-child(3){
-    color: #3C2A21;
-    font-weight: bold;
+    color: #0D0C1D !important;
+    font-weight: normal;
     font-family: inter;
     font-size: 1rem;
     text-align: left;
@@ -182,6 +183,10 @@ body{
     margin-left: 0.7rem;
     margin-right: 1.1rem ;
 }
+.judulCatatan:hover{
+    cursor: pointer;
+    
+}
 
 #tambahCatatan{
     text-decoration: none;
@@ -190,6 +195,10 @@ body{
     font-size: 1rem;
     font-weight: bold;
 }
+.tambahCatatanRouter{
+    text-decoration: none;
+}
+
 
 .judulTambahCatatan{
     width: 70%;

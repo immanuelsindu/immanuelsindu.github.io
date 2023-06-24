@@ -201,12 +201,12 @@
 
 #itemMahasiswaKanan p{
     color: #0D0C1D !important;
-    padding: 0.2rem;
+    padding: 0.2rem 0.4rem;
     text-align: center;
     font-weight: normal !important;
     font-size: 1rem !important;
     font-family: inter;
-    border-radius: 0.8rem;
+    border-radius: 0.625rem;
     background-color: #d5d5be;
 }
 
@@ -356,9 +356,20 @@
 }
 
 #itemCatatanPerwalian h5{
+    color: #0D0C1D !important;
+    text-align: center;
     font-size: 1rem;
-    font-weight: bold;
     font-family: inter;
+}
+#itemCatatanPerwalian h5:nth-child(2){
+    font-weight: bold;
+}
+#itemCatatanPerwalian h5:nth-child(3){
+}
+#itemCatatanPerwalian h5:nth-child(4){
+    font-weight: normal !important ;
+    color: #0D0C1D !important;
+    text-align: center !important;
 }
 #lihatSemuaCatatan a{
     color: #3C2A21;
@@ -419,8 +430,8 @@
     width: fit-content;
     font-weight: normal;
     font-size: 0.9rem;
-    padding: 0rem 0.5rem;
-    border-radius: 0.6rem;
+    padding: 0.2rem 0.1rem;
+    border-radius: 0.625rem;
     background-color: #d5d5be;
 }
 
@@ -481,10 +492,10 @@
 
 #jumlahHadir p{
     display: inline !important;
-    padding: 0rem 0.5rem;
+    padding: 0.4rem 0.6rem;
     background-color: #d5d5be;
     border-radius: 0.6rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 /* css card poin keaktifan */
@@ -510,7 +521,7 @@
 #cardPoinKeaktifan p{
     font-size: 1rem !important;
     font-weight: normal !important;
-    padding: 0rem 0.5rem;
+    padding: 0.2rem 0.8rem;
     background-color: #d5d5be;
     border-radius: 0.6rem;
 }
@@ -568,17 +579,23 @@
     font-size: 1rem;
     font-family: inter;
 }
+#containerProfilMahasiswa{
+    padding-left: 2.2rem;
+    padding-top: 1.5rem;
+}
 #judulProfilMahasiswa{
     font-weight: bold;
     font-family: inter;
     font-size: 1.2rem;
 }
-
+.orderedList{
+    line-height: 2.2rem;
+}
 #jumlahMatkulProfil li{ 
     list-style-type: none;
-    padding: 0rem 0.5rem;
+    padding: 0.35rem 0.7rem;
     background-color: #d5d5be;
-    border-radius: 0.6rem;
+    border-radius: 0.625rem;
     display: inline;
     text-align: center;   
 }
@@ -608,9 +625,9 @@
 }
 
 #bayarBaris1 div.col-6.text-center p{
-    padding: 0rem 0.5rem;
+    padding: 0.2rem 0.5rem;
     background-color: #d5d5be;
-    border-radius: 0.6rem;
+    border-radius: 0.625rem;
 }
 
 #bayarBaris2 p {
@@ -623,8 +640,8 @@
 
 #jumlahProgresYudisium p{
     background-color: #d5d5be;
-    border-radius: 0.6rem;
-    padding: 0rem 0.5rem;
+    border-radius: 0.625rem;
+    padding: 0.3rem 0.7rem;
     display: inline;
 }
 #infoYudisium a{
