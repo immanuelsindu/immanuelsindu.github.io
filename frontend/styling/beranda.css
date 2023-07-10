@@ -242,7 +242,7 @@
     position: sticky;
     top: 0;
     position: -webkit-sticky;
-    z-index: 2 !important;
+    z-index: 99 !important;
 }
 
 #contentKiri a {
@@ -627,18 +627,7 @@ a.lihatSelengkapnya {
     cursor: pointer;
 }
 
-#windowPreferensi {
-    width: 400px;
-    height: 310px;
-    background: white;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 7px 7px 36px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 0.625rem;
-    z-index: 2;
-    position: fixed;
 
-}
 
 #contentPreferensi p {
     font-weight: bold;
@@ -788,6 +777,61 @@ a.lihatSelengkapnya {
 
 #itemCatatanGrupAngkatan{
     margin-top: 3rem;
+}
+
+#windowPreferensi {
+    width: 400px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 7px 36px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.625rem;
+    z-index: 2 !important;
+    position: absolute;
+}
+
+#kolomHasilPencarian{  
+    width: 100%;
+    height: 20rem;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 7px 7px 36px -4px rgb(0 0 0 / 25%);
+    margin-top: 14vh;
+    border-radius: 0.6rem;
+    overflow-y: scroll;
+    font-size: 1rem;
+}
+
+#kolomHasilPencarian #judulItemHasilPencarian{
+    font-size: 1.2rem !important;
+}
+#itemHasilPencarian{
+    border-radius: 0.2rem;
+    /* transition: 0.1s all ease-in-out; */
+}
+#itemHasilPencarian:hover{
+    background-color: #EFEFEF;
+    /* transition: 0.1s all ease-in-out; */
+}
+
+#lihatSelengkapnyaHasilPencarian{
+    cursor: pointer;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+#lihatSelengkapnyaHasilPencarian:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+#namaMahasiswaHasilPencarian{
+    font-weight: bolder;
+    color: #3C2A21;
+}
+#namaMahasiswaHasilPencarian:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 

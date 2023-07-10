@@ -547,7 +547,7 @@
 }
 
 #garisPoinKeaktifan { 
-    width: 50%;
+    width: 30% !important;
     border-top: 2px solid #c7c7c7;
     margin-left: 2.2rem;
     margin-top: -0.7rem;
