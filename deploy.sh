@@ -13,21 +13,14 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
-git add -A
-git commit -m 'myDeploy'
-
-# ssh-keyscan -H "github.com"
-
-
-# git remote add origin git@github.com:immanuelsindu/immanuelsindu.github.io.git  
-# git push git@github.com:immanuelsindu/immanuelsindu.github.io.git 
 git remote add origin https://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@github.com/immanuelsindu/immanuelsindu.github.io.git
-   
-# git remote add origin https://github.com/immanuelsindu/immanuelsindu.github.io.git
-git branch -M master
-
+git add -A 
+git commit -m 'myDeploy'
 git pull origin master
-git push -u origin master
+git push
+   
+# git branch -M master
+# git push -u origin master
 # if you are deploying to https://<USERNAME>.github.io
 
 
