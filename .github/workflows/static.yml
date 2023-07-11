@@ -20,4 +20,5 @@ jobs:
         run: |
           git config --global user.email "immanuel.sindu@ti.ukdw.ac.id"
           git config --global user.name "immanuelsindu"
+          git config --global init.defaultBranch master
           bash $GITHUB_WORKSPACE/deploy.sh

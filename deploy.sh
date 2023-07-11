@@ -16,13 +16,15 @@ git init
 git add -A
 git commit -m 'myDeploy'
 
-ssh-keyscan -H "github.com"
-# git remote set-url origin git@github.com:immanuelsindu/immanuelsindu.github.io.git master
-git remote add origin git@github.com:immanuelsindu/immanuelsindu.github.io.git  
-# if you are deploying to https://<USERNAME>.github.io
-git push git@github.com:immanuelsindu/immanuelsindu.github.io.git 
+# ssh-keyscan -H "github.com"
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+
+# git remote add origin git@github.com:immanuelsindu/immanuelsindu.github.io.git  
+# git push git@github.com:immanuelsindu/immanuelsindu.github.io.git 
+
+git remote add origin https://github.com/immanuelsindu/immanuelsindu.github.io.git
+git push -u origin master
+# if you are deploying to https://<USERNAME>.github.io
+
 
 cd -
