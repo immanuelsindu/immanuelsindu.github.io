@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkweb_skrispi_v3"]=self["webpackChunkweb_skrispi_v3"]||[]).push([[566],{6566:function(s,e,i){i.r(e)}}]);
