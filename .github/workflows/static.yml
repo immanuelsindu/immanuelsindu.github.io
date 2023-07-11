@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Run deploy.sh
-      run: bash deploy.sh
+      - name: Run deploy.sh
+        run: bash $GITHUB_WORKSPACE/deploy.sh
