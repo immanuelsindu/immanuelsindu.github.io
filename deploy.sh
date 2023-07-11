@@ -15,8 +15,8 @@ cd dist
 git init
 git add -A
 git commit -m 'myDeploy'
-git remote set-url origin git@github.com:immanuelsindu/immanuelsindu.github.io.git 
-
+# git remote set-url origin git@github.com:immanuelsindu/immanuelsindu.github.io.git master
+git remote add origin git@github.com:immanuelsindu/immanuelsindu.github.io.git 
 # if you are deploying to https://<USERNAME>.github.io
 git push git@github.com:immanuelsindu/immanuelsindu.github.io.git 
 
