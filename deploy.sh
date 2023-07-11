@@ -16,6 +16,9 @@ git init
 git add -A
 git commit -m 'myDeploy'
 
+git config --global user.email "immanuel.sindu@ti.ukdw.ac.id"
+git config --global user.name "immanuelsindu"
+
 # if you are deploying to https://<USERNAME>.github.io
 git push -f git@github.com:immanuelsindu/immanuelsindu.github.io.git master
 
