@@ -18,4 +18,6 @@ jobs:
 
       - name: Run deploy.sh
         run: |
+          git config --global user.email "immanuel.sindu@ti.ukdw.ac.id"
+          git config --global user.name "immanuelsindu"
           bash $GITHUB_WORKSPACE/deploy.sh
