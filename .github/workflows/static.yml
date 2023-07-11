@@ -13,5 +13,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Npm Install
+        run: npm install
+
       - name: Run deploy.sh
         run: bash $GITHUB_WORKSPACE/deploy.sh
