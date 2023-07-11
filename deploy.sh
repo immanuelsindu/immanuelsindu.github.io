@@ -12,13 +12,13 @@ cd dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-
 git init
 git add -A
 git commit -m 'myDeploy'
+git remote set-url origin git@github.com:immanuelsindu/immanuelsindu.github.io.git 
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:immanuelsindu/immanuelsindu.github.io.git master
+git push git@github.com:immanuelsindu/immanuelsindu.github.io.git 
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
