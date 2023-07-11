@@ -26,7 +26,7 @@ git remote add origin https://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@github.co
 # git remote add origin https://github.com/immanuelsindu/immanuelsindu.github.io.git
 git branch -M master
 
-git pull 
+git pull origin master
 git push -u origin master
 # if you are deploying to https://<USERNAME>.github.io
 
