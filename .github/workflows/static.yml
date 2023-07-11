@@ -10,11 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+        - name: Checkout repository
+            uses: actions/checkout@v2
 
-      - name: Npm Install
-        run: npm install
+        - name: Npm Install
+            run: npm install
 
-      - name: Run deploy.sh
-        run: bash $GITHUB_WORKSPACE/deploy.sh
+        - name: Run deploy.sh
+            run: |
+                git config --global user.email "immanuel.sindu@ti.ukdw.ac.id"
+                git config --global user.name "immanuelsindu"
+                bash $GITHUB_WORKSPACE/deploy.sh
