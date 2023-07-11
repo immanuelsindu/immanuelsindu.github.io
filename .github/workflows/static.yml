@@ -13,5 +13,5 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Run deploy.sh
-      run: bash deploy.sh
+    - name: Run ./deploy.sh
+      run: bash ./deploy.sh
