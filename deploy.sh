@@ -24,8 +24,8 @@ git commit -m 'myDeploy'
 git remote add origin https://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@github.com/immanuelsindu/immanuelsindu.github.io.git
    
 # git remote add origin https://github.com/immanuelsindu/immanuelsindu.github.io.git
-git branch -M main
-git push -u origin main
+git branch -M master
+git push -u origin master
 # if you are deploying to https://<USERNAME>.github.io
 
 
