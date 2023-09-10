@@ -31,10 +31,11 @@
 
 
 /* batas atas navbar baru */
-.breadCrumb{
+.breadCrumb {
     font-size: 0.8rem;
 }
-#logoutUser{
+
+#logoutUser {
     color: #3C2A21;
     text-decoration: none;
 }
@@ -128,10 +129,11 @@
         width: 40% !important;
     }
 
-    div#bagianGrupAngkatan{
+    div#bagianGrupAngkatan {
         margin-left: 1rem;
     }
-    div#containerMahasiswaAngkatan{
+
+    div#containerMahasiswaAngkatan {
         width: 100px !important;
     }
 
@@ -152,7 +154,8 @@
     img#fotoDosen {
         width: 20%;
     }
-    div#containerMahasiswaAngkatan{
+
+    div#containerMahasiswaAngkatan {
         width: 600px;
     }
 }
@@ -165,7 +168,7 @@
 }
 
 /* batas bawah navbar baru */
-#buttonSort{
+#buttonSort {
     background-color: #EFEFEF;
 }
 
@@ -218,7 +221,7 @@
 .mySticky::-webkit-scrollbar {
     display: none;
     /* position: absolute; */
-  }
+}
 
 .mySticky {
     overflow-y: auto;
@@ -227,18 +230,20 @@
     position: sticky;
     top: 0;
     position: -webkit-sticky;
-    transition: 0.4s ease-in-out ;
+    transition: 0.4s ease-in-out;
 
     padding-bottom: 15rem;
 }
 
-.heightScroll{
+.heightScroll {
     height: 38rem !important;
 }
-.paddingTop{
+
+.paddingTop {
     padding-top: 4rem;
 }
-.stickyNavbar{
+
+.stickyNavbar {
     position: sticky;
     top: 0;
     position: -webkit-sticky;
@@ -304,7 +309,7 @@
     /* text-align: left; */
 }
 
-.jumlahMahasiswaBimbingan{
+.jumlahMahasiswaBimbingan {
     padding: 0.3rem 0.8rem;
     text-align: center;
     font-size: 1rem;
@@ -313,11 +318,11 @@
     background-color: #d5d5be;
 }
 
-.material-symbols-outlined.dropdown{
+.material-symbols-outlined.dropdown {
     cursor: pointer;
 }
 
-#infoMahasiswaBimbingan{
+#infoMahasiswaBimbingan {
     z-index: 99 !important;
     /* position: absolute; */
     background-color: white;
@@ -327,31 +332,34 @@
     border-radius: 0.625rem;
 }
 
-#dataBimbinganDosen{
+#dataBimbinganDosen {
     font-size: 1rem;
 }
 
 
 
 
-.itemInfoMahasiswaBimbingan{
+.itemInfoMahasiswaBimbingan {
     transition: 0.1s all ease-in-out;
 }
-.itemInfoMahasiswaBimbingan:hover{
+
+.itemInfoMahasiswaBimbingan:hover {
     background-color: #EFEFEF;
     transition: 0.1s all ease-in-out;
 }
-li.itemInfoMahasiswaBimbingan div a{
+
+li.itemInfoMahasiswaBimbingan div a {
     text-decoration: none !important;
 }
 
-#dataAngkatanBimbingan{
+#dataAngkatanBimbingan {
     cursor: pointer;
     padding: 0.3rem 0.0rem;
     border-radius: 0.625rem;
     transition: 0.1s all ease-in-out;
 }
-#dataAngkatanBimbingan:hover{
+
+#dataAngkatanBimbingan:hover {
     background-color: #EFEFEF;
     padding: 0.3rem 0.3rem;
     border-radius: 0.625rem;
@@ -383,11 +391,11 @@ li.itemInfoMahasiswaBimbingan div a{
     font-size: 0.8rem;
 }
 
-#inputCariCatatanPerwalian:focus{
+#inputCariCatatanPerwalian:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 #indikatorWarna {
@@ -411,12 +419,14 @@ li.itemInfoMahasiswaBimbingan div a{
     font-family: inter;
     text-decoration: none;
 }
-.card-body{
+
+.card-body {
     width: auto !important;
     border-radius: 0.625rem;
     box-shadow: 7px 7px 36px -4px rgb(0 0 0 / 25%);
 }
-#itemCatatan{
+
+#itemCatatan {
     background-color: transparent !important;
     box-shadow: none !important;
 }
@@ -427,11 +437,12 @@ li.itemInfoMahasiswaBimbingan div a{
     border: none;
     padding: 0rem !important;
 }
-#itemCatatanPerwalian a{
+
+#itemCatatanPerwalian a {
     color: #007BFF;
 }
 
-#itemCatatanPerwalian a:hover{
+#itemCatatanPerwalian a:hover {
     color: #007BFF;
 }
 
@@ -457,9 +468,11 @@ li.itemInfoMahasiswaBimbingan div a{
     display: inline;
 
 }
-.material-symbols-outlined.bullet{
+
+.material-symbols-outlined.bullet {
     margin-right: 0.2rem;
 }
+
 .material-symbols-outlined.bullet.align-middle:nth-child(1) {
     font-size: inherit;
     color: #DC3545;
@@ -479,7 +492,8 @@ li.itemInfoMahasiswaBimbingan div a{
     font-size: inherit;
     color: #FFC107;
 }
-.garisMahasiswa{
+
+.garisMahasiswa {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -491,7 +505,7 @@ li.itemInfoMahasiswaBimbingan div a{
     margin-top: -0.2rem;
 }
 
-.garisOrangTuaWali{
+.garisOrangTuaWali {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -503,7 +517,7 @@ li.itemInfoMahasiswaBimbingan div a{
     margin-top: -0.2rem;
 }
 
-.garisOrangTuaWaliMahasiswa{
+.garisOrangTuaWaliMahasiswa {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -515,7 +529,7 @@ li.itemInfoMahasiswaBimbingan div a{
     margin-top: -0.2rem;
 }
 
-.garisGrupAngkatan{
+.garisGrupAngkatan {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -684,7 +698,7 @@ a.lihatSelengkapnya {
     border-radius: 0.625rem;
 }
 
-#infoIPK{
+#infoIPK {
     font-size: 0.9rem !important;
 }
 
@@ -743,7 +757,7 @@ a.lihatSelengkapnya {
     min-width: 250px;
     background-color: #333;
     color: #fff;
-  
+
     border-radius: 0.625rem;
     padding: 16px;
     position: fixed;
@@ -758,24 +772,23 @@ a.lihatSelengkapnya {
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
-#chartRataRataIPK p{
+#chartRataRataIPK p {
     font-size: 1.2rem;
     font-weight: bold;
 }
-#containerChart{
+
+#containerChart {
     background-color: white !important;
     border-radius: 0.625rem;
-    width: 95%;
-    height: 100%;
+    width: 71.5vw;
+    height: 80vh;
     box-shadow: 7px 7px 36px -4px rgb(0 0 0 / 25%);
     padding: 1.5rem 2.3rem 2rem;
 }
 
-#pagination{
+#pagination {}
 
-}
-
-#itemCatatanGrupAngkatan{
+#itemCatatanGrupAngkatan {
     margin-top: 3rem;
 }
 
@@ -790,7 +803,7 @@ a.lihatSelengkapnya {
     position: absolute;
 }
 
-#kolomHasilPencarian{  
+#kolomHasilPencarian {
     width: 100%;
     height: 20rem;
     position: absolute;
@@ -803,33 +816,37 @@ a.lihatSelengkapnya {
     font-size: 1rem;
 }
 
-#kolomHasilPencarian #judulItemHasilPencarian{
+#kolomHasilPencarian #judulItemHasilPencarian {
     font-size: 1.2rem !important;
 }
-#itemHasilPencarian{
+
+#itemHasilPencarian {
     border-radius: 0.2rem;
     /* transition: 0.1s all ease-in-out; */
 }
-#itemHasilPencarian:hover{
+
+#itemHasilPencarian:hover {
     background-color: #EFEFEF;
     /* transition: 0.1s all ease-in-out; */
 }
 
-#lihatSelengkapnyaHasilPencarian{
+#lihatSelengkapnyaHasilPencarian {
     cursor: pointer;
     color: #007BFF;
     font-weight: bold;
 }
 
-#lihatSelengkapnyaHasilPencarian:hover{
+#lihatSelengkapnyaHasilPencarian:hover {
     cursor: pointer;
     font-weight: bold;
 }
-#namaMahasiswaHasilPencarian{
+
+#namaMahasiswaHasilPencarian {
     font-weight: bolder;
     color: #3C2A21;
 }
-#namaMahasiswaHasilPencarian:hover{
+
+#namaMahasiswaHasilPencarian:hover {
     cursor: pointer;
     text-decoration: underline;
 }
