@@ -8,19 +8,21 @@
     src: url("../font/Inter-Regular.ttf");
 }
 
-body{
+body {
     margin: 0rem;
 }
-.breadCrumb{
+
+.breadCrumb {
     font-size: 0.8rem;
 }
-#navbar{
+
+#navbar {
     width: 100%;
     height: 4rem;
     background-color: #E5E5CB;
 }
 
-#navbar p{
+#navbar p {
     width: 500px;
     margin: 0rem;
     font-size: 1.2rem;
@@ -31,18 +33,19 @@ body{
     margin-left: 1rem;
 }
 
-#loginPanel{
+#loginPanel {
     width: 45%;
     /* height: 25rem; */
-    background-color: white ;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
     margin-bottom: 3rem;
     border-radius: 1rem;
-    box-shadow: 7px 7px 37px -4px rgba(0, 0, 0, 0.25); 
+    box-shadow: 7px 7px 37px -4px rgba(0, 0, 0, 0.25);
 }
-#garis{
+
+#garis {
     width: 10%;
     margin-left: 2rem;
     border-top: 2px solid #3C2A21;
@@ -51,43 +54,45 @@ body{
 #loginPanelKiri {
     float: left;
 }
-#loginPanelKiri img{
+
+#loginPanelKiri img {
     width: 90%;
 }
 
-#loginPanelKanan{
+#loginPanelKanan {
     width: 80%;
     float: left;
 }
-#loginPanelKanan p:nth-child(2){
+
+#loginPanelKanan p:nth-child(2) {
     font-family: inter;
     font-size: 0.8rem;
     font-weight: 100;
     color: #878787;
 }
 
-#inputId{
+#inputId {
     width: 100%;
     height: 2.3rem;
     padding-left: 1.6rem;
     background-color: #fafafa;
     border-radius: 0.3rem;
     border: 1.5px solid #969696;
-    font-size: 0.8rem; 
-    margin-bottom: 0.8rem; 
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
-.bi.bi-person-fill{
+.bi.bi-person-fill {
     color: #969696;
     position: absolute;
 }
 
-.bi.bi-lock-fill{
+.bi.bi-lock-fill {
     color: #969696;
     position: absolute;
 }
 
-#btnLogin{
+#btnLogin {
     /* margin-top: 1rem; */
     background-color: #3C2A21;
     color: white;
@@ -103,9 +108,9 @@ body{
     clear: both;
     margin-left: auto;
     margin-right: auto;
-} 
+}
 
-#btnLogin:hover{
+#btnLogin:hover {
     /* margin-top: 1rem; */
     background-color: white;
     color: #3C2A21;
@@ -121,7 +126,8 @@ body{
     cursor: pointer;
 }
 
-.material-symbols-outlined.person,.material-symbols-outlined.lock{
+.material-symbols-outlined.person,
+.material-symbols-outlined.lock {
     position: absolute;
     color: #969696;
     line-height: inherit;
@@ -136,30 +142,43 @@ body{
     color: #969696;
     font-weight: normal !important;
 }
-#btnLoginSSO{
+
+#btnLoginSSO {
     background-color: white;
     width: 6rem;
     height: 2rem;
     border-radius: 0.3rem;
     border-color: black;
 }
-#btnLoginSSO:hover{
+
+#btnLoginSSO:hover {
     cursor: pointer;
 }
 
-.judulWelcome{
+.judulWelcome {
     font-family: inter;
     font-size: 1.2rem;
     font-weight: bold;
 }
-#judulWeb{
+
+#judulWeb {
     font-family: inter;
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-#logoutUser{
+#logoutUser {
     color: #3C2A21;
     text-decoration: none;
+}
+
+#infoNamaDosen {
+    font-size: 1rem !important;
+}
+
+#labelNamaDosen {
+    background-color: #d5d5be !important;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
 }

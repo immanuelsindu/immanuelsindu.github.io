@@ -172,11 +172,6 @@
     background-color: #EFEFEF;
 }
 
-#idPengguna {
-    width: 13rem;
-    float: right;
-}
-
 .btn.btn-secondary.dropdown-toggle {
     font-size: 1rem;
     background-color: #E5E5CB;
@@ -861,4 +856,14 @@ a.lihatSelengkapnya {
 .v-enter-from,
 .v-leave-to {
     opacity: 0;
+}
+
+#infoNamaDosen {
+    font-size: 1rem !important;
+}
+
+#labelNamaDosen {
+    background-color: #d5d5be !important;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
 }

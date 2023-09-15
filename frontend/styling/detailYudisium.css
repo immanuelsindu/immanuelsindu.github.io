@@ -88,10 +88,7 @@ body {
     margin-left: 1rem;
 }
 
-#idPengguna {
-    width: 13rem;
-    float: right;
-}
+
 
 .btn.btn-secondary.dropdown-toggle {
     background-color: #E5E5CB;
@@ -202,4 +199,14 @@ body {
 #logoutUser {
     color: #3C2A21;
     text-decoration: none;
+}
+
+#infoNamaDosen {
+    font-size: 1rem !important;
+}
+
+#labelNamaDosen {
+    background-color: #d5d5be !important;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
 }

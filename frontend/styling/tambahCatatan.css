@@ -8,35 +8,38 @@
     src: url("../font/Inter-Regular.ttf");
 }
 
-body{
+body {
     margin: 0rem;
     font-family: inter !important;
 }
-.material-symbols-outlined.close.ml-2{
+
+.material-symbols-outlined.close.ml-2 {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48;
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
     font-size: 1.2rem;
 
 }
-.material-symbols-outlined.add.text-success{
+
+.material-symbols-outlined.add.text-success {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
-  @media screen and (max-width: 575px) {
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+@media screen and (max-width: 575px) {
 
     /* breakpoint navbar */
     div#iconBeranda {
@@ -50,9 +53,9 @@ body{
     div#navbar2 {
         margin-bottom: 0.5rem;
     }
-  }
+}
 
-  @media screen and (max-width:992px) {
+@media screen and (max-width:992px) {
 
     /* breakpoint navbar */
     div#navbar {
@@ -60,23 +63,24 @@ body{
     }
 }
 
-.paddingTop{
+.paddingTop {
     padding-top: 4rem;
 }
-.stickyNavbar{
+
+.stickyNavbar {
     position: sticky;
     top: 0;
     position: -webkit-sticky;
     z-index: 2 !important;
 }
 
-#navbar{
+#navbar {
     width: 100%;
     height: 4rem;
     background-color: #E5E5CB;
 }
 
-#navbar p{
+#navbar p {
     /* width: 500px; */
     margin: 0rem;
     font-size: 1.2rem;
@@ -86,14 +90,11 @@ body{
     margin-left: 1rem;
 }
 
-#idPengguna{
-    width: 13rem;
-    float: right;
-}
 
-.btn.btn-secondary.dropdown-toggle{
+
+.btn.btn-secondary.dropdown-toggle {
     background-color: #E5E5CB;
-    color:#3C2A21;
+    color: #3C2A21;
     font-family: inter;
     border: none;
     font-weight: bold;
@@ -102,24 +103,27 @@ body{
 }
 
 /* batas navbar */
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .container {
         max-width: 1340px !important;
     }
 }
-.breadcrumb.bg-white.ml-5{
+
+.breadcrumb.bg-white.ml-5 {
     font-size: 0.8rem;
     font-family: inter;
 }
-.breadCrumb{
+
+.breadCrumb {
     font-size: 0.8rem;
 }
 
-#logoutUser{
+#logoutUser {
     color: #3C2A21;
     text-decoration: none;
 }
-#judulCatatan p{
+
+#judulCatatan p {
     color: #0D0C1D !important;
     text-align: center;
     font-weight: bold;
@@ -128,86 +132,91 @@ body{
     margin-top: 2.5rem;
 }
 
-#tambahCatatan div.col-4{
+#tambahCatatan div.col-4 {
     width: 100%;
     height: 100%;
 }
-#tambahCatatan .font-weight-bold{
+
+#tambahCatatan .font-weight-bold {
     font-family: inter !important;
     color: #0D0C1D !important;
 }
 
-#inputanMultiline{
+#inputanMultiline {
     width: 80%;
 }
-#inputKiri{
+
+#inputKiri {
     width: 85%;
     height: 2.5rem;
     border-radius: 0.6rem;
     box-sizing: border-box;
-    
+
     border: 2px solid #878787;
     font-size: 0.9rem;
     padding: 0rem 0.5rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     outline: none;
 }
-#inputKiri:focus{
+
+#inputKiri:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-#inputKiriAngkatan{
+#inputKiriAngkatan {
     width: 100%;
     height: 2.5rem;
     border-radius: 0.6rem;
     box-sizing: border-box;
-    
+
     border: 2px solid #878787;
     font-size: 0.9rem;
     padding: 0rem 0.5rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     outline: none;
 }
-#inputKiriAngkatan:focus{
+
+#inputKiriAngkatan:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.dropdown-item{
+.dropdown-item {
     cursor: pointer;
 }
 
 
-#opsiTipePerwalian{
+#opsiTipePerwalian {
     color: #0D0C1D !important;
     font-size: 1rem;
 }
 
-#inputNamaOrangTua{
+#inputNamaOrangTua {
     width: 80%;
     height: 2.5rem;
     border-radius: 0.6rem;
     box-sizing: border-box;
-    
+
     border: 2px solid #878787;
     font-size: 0.9rem;
     padding: 0rem 0.5rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     outline: none;
 }
-#inputNamaOrangTua:focus{
+
+#inputNamaOrangTua:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.inputJudulKonsul2{
+.inputJudulKonsul2 {
     width: 75% !important;
     height: 2.5rem;
     border-radius: 0.6rem 0rem 0rem 0.6rem !important;
@@ -217,11 +226,11 @@ body{
     padding-left: 0.5rem;
     vertical-align: middle;
     /* box-sizing: border-box; */
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     outline: none;
 }
 
-.inputJudulKonsul{
+.inputJudulKonsul {
     width: 85% !important;
     height: 2.5rem;
     border-radius: 0.6rem !important;
@@ -230,18 +239,18 @@ body{
     padding-left: 0.5rem;
     vertical-align: middle;
     /* box-sizing: border-box; */
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     outline: none;
 }
 
-#inputJudulKonsul:focus{
+#inputJudulKonsul:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-#inputJudulKonsulAngkatan{
+#inputJudulKonsulAngkatan {
     width: 87% !important;
     height: 2.5rem;
     border-radius: 0.6rem 0rem 0rem 0.6rem !important;
@@ -251,59 +260,60 @@ body{
     padding-left: 0.5rem;
     vertical-align: middle;
     /* box-sizing: border-box; */
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     outline: none;
 }
-#inputJudulKonsulAngkatan:focus{
+
+#inputJudulKonsulAngkatan:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-#dropdownMenuButton2{
+#dropdownMenuButton2 {
     width: 10%;
     height: 100%;
     margin-left: 0rem;
     border-radius: 0rem 0.6rem 0.6rem 0rem;
-    border:2px solid #878787 ;
+    border: 2px solid #878787;
     border-left: none;
     vertical-align: middle;
 }
 
-#dropdownMenuButton2:focus{
+#dropdownMenuButton2:focus {
 
     margin-top: -4px;
     margin-left: 0rem;
     border-radius: 0rem 0.6rem 0.6rem 0rem;
-    border:2px solid #878787 ;
+    border: 2px solid #878787;
     background-color: #E5E5CB;
     border-left: none;
     color: black;
 }
 
-#dropdownMenuButtonAngkatan{
+#dropdownMenuButtonAngkatan {
     width: 13%;
     height: 100%;
     margin-left: 0rem;
     border-radius: 0rem 0.6rem 0.6rem 0rem;
-    border:2px solid #878787 ;
+    border: 2px solid #878787;
     border-left: none;
     vertical-align: middle;
 }
 
-#dropdownMenuButtonAngkatan:focus{
+#dropdownMenuButtonAngkatan:focus {
     margin-top: -4px;
     margin-left: 0rem;
     border-radius: 0rem 0.6rem 0.6rem 0rem;
-    border:2px solid #878787 ;
+    border: 2px solid #878787;
     background-color: #E5E5CB;
     border-left: none;
     color: black;
 }
 
 
-#judulItemPerCatatan{
+#judulItemPerCatatan {
     font-family: inter;
     background-color: #E5E5CB;
     color: #3C2A21;
@@ -314,7 +324,7 @@ body{
     margin-bottom: 0.5rem;
 }
 
-#judulItemPerCatatan2{
+#judulItemPerCatatan2 {
     font-family: inter;
     color: #0D0C1D;
     border-radius: 0.625rem;
@@ -324,12 +334,12 @@ body{
 }
 
 
-#judulTambahMahasiswa{
+#judulTambahMahasiswa {
     font-weight: bold;
     font-family: inter;
 }
- 
-#inputCariMahasiswa{
+
+#inputCariMahasiswa {
     width: 82% !important;
     height: 2.5rem;
     padding-left: 2.2rem !important;
@@ -339,52 +349,53 @@ body{
     font-family: inter;
     box-sizing: border-box;
     outline: none;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-#inputCariMahasiswa:focus{
+#inputCariMahasiswa:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.material-symbols-outlined.search{
+.material-symbols-outlined.search {
     font-size: 1.7rem;
     color: #878787 !important;
     padding-top: 0rem !important;
     padding-left: 0rem !important;
 }
-#cariTambahMahasiswa span{
+
+#cariTambahMahasiswa span {
     position: absolute;
     clear: both;
 
 }
 
-#kolomInputan textarea{
+#kolomInputan textarea {
     width: 100%;
     height: 20rem;
     border-radius: 0.6rem;
-    border:3px solid #878787;
+    border: 3px solid #878787;
     padding: 0.5rem;
     font-family: inter;
     resize: none;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-#kolomInputan textarea:focus{
+#kolomInputan textarea:focus {
     outline: none;
     border-radius: 0.6rem;
     box-shadow: 0px 0px 3px 3px #E5E5CB;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 
-#buttonBatalSimpan{
-    margin:0rem 9.3rem;
+#buttonBatalSimpan {
+    margin: 0rem 9.3rem;
 }
 
-#buttonBatal{
+#buttonBatal {
     transition: 0.4s all ease;
     padding: 0.5rem 1rem;
     background-color: #E5E5CB;
@@ -395,7 +406,7 @@ body{
     letter-spacing: 0.1rem;
 }
 
-#buttonBatal:hover{
+#buttonBatal:hover {
     cursor: pointer;
     transition: 0.4s all ease;
     padding: 0.5rem 1rem;
@@ -406,7 +417,7 @@ body{
     letter-spacing: 0.1rem;
 }
 
-#buttonSimpan{
+#buttonSimpan {
     transition: 0.4s all ease;
     padding: 0.5rem 1rem;
     background-color: #3C2A21;
@@ -419,7 +430,7 @@ body{
     letter-spacing: 0.1rem;
 }
 
-#buttonSimpan:hover{
+#buttonSimpan:hover {
     cursor: pointer;
     transition: 0.4s all ease;
     padding: 0.5rem 1rem;
@@ -433,20 +444,20 @@ body{
     letter-spacing: 0.1rem;
 }
 
-#containerPresensi{
-    font-family: inter ;
+#containerPresensi {
+    font-family: inter;
 }
 
 #judulPresensi p {
     font-size: 1.2rem;
 }
 
-#presensiMahasiswa2{
+#presensiMahasiswa2 {
     width: 100%;
     height: 18vh;
 }
 
-.presensiMahasiswa{
+.presensiMahasiswa {
     width: 50%;
     height: max-content;
 
@@ -456,32 +467,32 @@ body{
     text-align: center;
     background-color: white;
     box-shadow: 7px 7px 36px -4px rgb(0 0 0 / 25%);
-    transition: 0.2s ease-in-out all;  
+    transition: 0.2s ease-in-out all;
 }
 
-.presensiMahasiswa:hover{
-    margin-bottom: 0.3rem ;
+.presensiMahasiswa:hover {
+    margin-bottom: 0.3rem;
     cursor: pointer;
     box-shadow: 7px 7px 36px -4px rgba(0, 0, 0, 0.308);
-    transition: 0.2s ease-in-out all;  
+    transition: 0.2s ease-in-out all;
 }
 
-.presensiMahasiswa p{
+.presensiMahasiswa p {
     font-size: 1.2rem;
     margin: 0rem;
 }
 
 .v-enter-active,
 .v-leave-active {
-  transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
 }
 
 .v-enter-from,
 .v-leave-to {
-  opacity: 0;
+    opacity: 0;
 }
 
-.form-check-input{
+.form-check-input {
     width: 1.2rem;
     height: 1.2rem;
 }
@@ -489,73 +500,86 @@ body{
 
 .slide-fade-enter-active {
     transition: all 0.5s ease;
-  }
-  .slide-fade-leave-active {
+}
+
+.slide-fade-leave-active {
     transition: all 0.5s ease;
-  }
-  .slide-fade-enter, .slide-fade-leave-to
-  /* .slide-fade-leave-active for <2.1.8 */ {
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to
+
+/* .slide-fade-leave-active for <2.1.8 */
+    {
     transform: translateX(10px);
     opacity: 0;
-  }
-  
-#logoutUser{
+}
+
+#logoutUser {
     color: #3C2A21;
     text-decoration: none;
 }
 
-#daftarPesertaLainnya{
+#daftarPesertaLainnya {
     position: absolute;
     width: 80%;
     height: 12.5rem;
     background-color: white;
     margin-right: 0rem;
     border-radius: 0.625rem;
-    border:2px solid #878787 ;
+    border: 2px solid #878787;
     overflow-y: scroll;
 }
-#daftarPesertaLainnya2{
+
+#daftarPesertaLainnya2 {
     position: absolute;
     width: 90%;
     height: 12.5rem;
     background-color: white;
     margin-right: 0rem;
     border-radius: 0.625rem;
-    border:2px solid #878787 ;
+    border: 2px solid #878787;
     overflow-y: scroll;
 }
 
-#daftarPesertaLainnya ol{
+#daftarPesertaLainnya ol {
     width: 100%;
 }
-#daftarPesertaLainnya li{
+
+#daftarPesertaLainnya li {
     border-bottom: 1px solid rgb(184, 184, 184);
     line-height: 1.8rem;
 }
-#daftarPesertaLainnya2 li{
+
+#daftarPesertaLainnya2 li {
     border-bottom: 1px solid rgb(184, 184, 184);
     line-height: 1.8rem;
 }
-.material-symbols-outlined.add.text-success:hover{
+
+.material-symbols-outlined.add.text-success:hover {
     cursor: pointer;
 }
-.material-symbols-outlined.delete.text-danger:hover{
+
+.material-symbols-outlined.delete.text-danger:hover {
     cursor: pointer;
 }
-#iconCari{
+
+#iconCari {
     color: #878787;
     position: absolute;
 }
-#iconClose{
+
+#iconClose {
     color: #878787;
     position: absolute;
     right: 23%;
 }
-#iconClose:hover{
+
+#iconClose:hover {
     cursor: pointer;
 }
 
-#hoverCariPeserta{
+#hoverCariPeserta {
     width: 85%;
     height: max-content;
     position: absolute;
@@ -566,10 +590,21 @@ body{
     border-radius: 0.625rem;
 }
 
-#hoverCariPeserta ul li{
+#hoverCariPeserta ul li {
     border: none;
 }
-#hoverCariPeserta ul li:hover{
-  
+
+#hoverCariPeserta ul li:hover {
+
     background-color: #edeaea;
+}
+
+#infoNamaDosen {
+    font-size: 1rem !important;
+}
+
+#labelNamaDosen {
+    background-color: #d5d5be !important;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
 }

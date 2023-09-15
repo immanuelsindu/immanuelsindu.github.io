@@ -100,10 +100,7 @@
     font-family: inter;
 }
 
-#idPengguna {
-    width: 13rem;
-    float: right;
-}
+
 
 .btn.btn-secondary.dropdown-toggle {
     background-color: #E5E5CB;
@@ -537,4 +534,14 @@ span.material-symbols-outlined.search {
 #myVueContainer {
     width: 700px;
     height: max-content;
+}
+
+#infoNamaDosen {
+    font-size: 1rem !important;
+}
+
+#labelNamaDosen {
+    background-color: #d5d5be !important;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
 }

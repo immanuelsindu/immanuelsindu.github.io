@@ -89,10 +89,7 @@ body {
     margin-left: 1rem;
 }
 
-#idPengguna {
-    width: 13rem;
-    float: right;
-}
+
 
 .breadCrumb {
     font-size: 0.8rem;
@@ -702,4 +699,14 @@ p#suggestText {
 
 #textAgendaPerwalian {
     word-wrap: break-word;
+}
+
+#infoNamaDosen {
+    font-size: 1rem !important;
+}
+
+#labelNamaDosen {
+    background-color: #d5d5be !important;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
 }
