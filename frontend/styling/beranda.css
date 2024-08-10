@@ -348,6 +348,7 @@ li.itemInfoMahasiswaBimbingan div a {
 }
 
 #dataAngkatanBimbingan {
+    background-color: #EFEFEF;
     cursor: pointer;
     padding: 0.3rem 0.0rem;
     border-radius: 0.625rem;
@@ -355,7 +356,7 @@ li.itemInfoMahasiswaBimbingan div a {
 }
 
 #dataAngkatanBimbingan:hover {
-    background-color: #EFEFEF;
+    background-color: #cfcfcf;
     padding: 0.3rem 0.3rem;
     border-radius: 0.625rem;
     transition: 0.1s all ease-in-out;
@@ -866,4 +867,35 @@ a.lihatSelengkapnya {
     background-color: #d5d5be !important;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
+}
+
+#drawerContainer {
+    padding-top: 8rem;
+    top: 0;
+    position: fixed;
+    z-index: 98 !important;
+}
+
+#navDrawer {
+    background-color: #E5E5CB;
+    position: absolute;
+    z-index: 10;
+    padding: 0.7rem;
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    transition: 0.2s all ease-in;
+}
+
+#navDrawer:hover {
+    cursor: pointer;
+    background-color: #E5E5CB;
+    position: absolute;
+    padding: 0.7rem 0.7rem 0.7rem 1.3rem;
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    transition: 0.2s all ease-in;
+}
+
+#sideDrawer template {
+    display: block;
+    position: absolute;
+    z-index: 98 !important;
 }
