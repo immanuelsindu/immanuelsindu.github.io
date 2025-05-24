@@ -8,7 +8,7 @@
       case "primary-outline":
         return "bg-white border border-gray-700 !text-gray-700 hover:bg-gray-200";
       case "danger":
-        return "bg-red-600 hover:bg-red-700";
+        return "bg-red-500 hover:bg-red-600";
       default:
         return "bg-gray-700 hover:bg-gray-800";
     }

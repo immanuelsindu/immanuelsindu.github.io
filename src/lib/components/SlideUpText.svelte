@@ -5,13 +5,13 @@
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <!-- svelte-ignore event_directive_deprecated -->
 <div
-  class="w-fit h-[25px] overflow-hidden rounded cursor-pointer bg-blue-100"
+  class="w-fit h-[25px] overflow-hidden rounded cursor-pointer"
   on:mouseenter={() => (isHover = true)}
   on:mouseleave={() => (isHover = false)}
 >
   <div class={`container ${containerClass}`} class:translate-up={isHover}>
-    <p class={`h-[25px] bg-white ${styleA}`}>{textA}</p>
-    <p class={`h-[25px] bg-white ${styleB}`}>{textB}</p>
+    <p class={`h-[25px] ${styleA}`}>{textA}</p>
+    <p class={`h-[25px] ${styleB}`}>{textB}</p>
   </div>
 </div>
 

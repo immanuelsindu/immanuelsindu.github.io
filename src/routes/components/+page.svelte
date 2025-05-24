@@ -14,7 +14,7 @@
   <div class="space-y-2">
     <div class="flex gap-1">
       <RenderImage src={"https://images.tokopedia.net/img/official_store/badge_os.png"} width={25} height={20} />
-      <SlideUpText textA={"Toko Ramai Mall"} textB={"Daerah Istimewa Yogyakarta"} containerClass={"!text-gray-500"} />
+      <SlideUpText textA={"Toko Ramai Mall"} textB={"Daerah Istimewa Yogyakarta"} containerClass={"!text-white"} />
     </div>
     <div class="flex gap-1">
       <RenderImage
@@ -22,7 +22,7 @@
         width={25}
         height={20}
       />
-      <SlideUpText textA={"Toko Pakan Lele"} textB={"Jakarta Selatan"} containerClass={"!text-gray-500"} />
+      <SlideUpText textA={"Toko Pakan Lele"} textB={"Jakarta Selatan"} containerClass={"!text-white"} />
     </div>
 
     <div>
@@ -45,7 +45,7 @@
       on:click|stopPropagation
     >
       <div
-        class="flex items-center justify-between px-3 w-full h-[45px] bg-red-600 absolute top-0 left-0 rounded-tl-md rounded-tr-md text-white"
+        class="flex items-center justify-between px-3 w-full h-[45px] bg-red-500/70 absolute top-0 left-0 rounded-tl-md rounded-tr-md text-white"
       >
         <p>Hapus Item</p>
         <button
@@ -58,13 +58,11 @@
       </div>
 
       <div class="flex flex-col gap-1 items-center mt-[65px]">
-        <span class="text-red-500">
+        <span class="text-red-400">
           <Icon icon="line-md:trash" width="80" height="80" />
         </span>
         <p class="font-medium text-black mt-3">Yakin untuk hapus item ?</p>
-        <p class="text-gray-500 text-center text-[15px] px-5">
-          Data yang dihapus tidak akan bisa kembalikan lagi. Yakin untuk hapus ?
-        </p>
+        <p class="text-gray-500 text-center text-[15px] px-5">Data yang dihapus tidak akan bisa kembalikan lagi.</p>
       </div>
 
       <div class="absolute bottom-4 left-0 w-full flex justify-between px-4">

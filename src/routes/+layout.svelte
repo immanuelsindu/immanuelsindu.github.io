@@ -4,10 +4,11 @@
   import Header from "$lib/views/Header.svelte";
   import Sidebar from "$lib/views/Sidebar.svelte";
 
-  let sidebarCollapse = false;
+  let sidebarCollapse = true;
 </script>
 
-<div class="flex relative">
+<!-- bg-gradient-to-br from-[#FFE1E0] via-[#F49BAB] to-[#7F55B1] -->
+<div class="flex relative bg-[#7F55B1]/50">
   <Sidebar bind:sidebarCollapse />
   <div
     class={`w-full h-[48px] bg-[#7F55B1] grow trasition ease-in-out ${sidebarCollapse ? "duration-400" : "duration-400"}`}
@@ -15,7 +16,7 @@
   >
     <Header bind:sidebarCollapse />
 
-    <main class="bg-white h-full">
+    <main class="h-full">
       <slot />
     </main>
   </div>
