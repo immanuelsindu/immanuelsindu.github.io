@@ -1,22 +1,17 @@
 <script>
-  export let textA = "Hello";
-  export let textB = "World";
-
-  export let styleA = "bg-red-300";
-  export let styleB = "bg-blue-300";
-
-  let isHover = false;
+  let { isHover = false, textA = "Hello", textB = "World", styleA = "", styleB = "", containerClass = "" } = $props();
 </script>
 
 <!-- svelte-ignore a11y_no_static_element_interactions -->
+<!-- svelte-ignore event_directive_deprecated -->
 <div
   class="w-fit h-[25px] overflow-hidden rounded cursor-pointer bg-blue-100"
   on:mouseenter={() => (isHover = true)}
   on:mouseleave={() => (isHover = false)}
 >
-  <div class="container" class:translate-up={isHover}>
-    <p class={`px-2 h-[25px] ${styleA}`}>{textA}</p>
-    <p class={`px-2 h-[25px] ${styleB}`}>{textB}</p>
+  <div class={`container ${containerClass}`} class:translate-up={isHover}>
+    <p class={`h-[25px] bg-white ${styleA}`}>{textA}</p>
+    <p class={`h-[25px] bg-white ${styleB}`}>{textB}</p>
   </div>
 </div>
 
