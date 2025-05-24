@@ -14,7 +14,7 @@
   <div class="space-y-2">
     <div class="flex gap-1">
       <RenderImage src={"https://images.tokopedia.net/img/official_store/badge_os.png"} width={25} height={20} />
-      <SlideUpText textA={"Toko Ramai Mall"} textB={"Daerah Istimewa Yogyakarta"} containerClass={"!text-secondary"} />
+      <SlideUpText textA={"Toko Ramai Mall"} textB={"Daerah Istimewa Yogyakarta"} containerClass={"!text-gray-500"} />
     </div>
     <div class="flex gap-1">
       <RenderImage
@@ -22,12 +22,12 @@
         width={25}
         height={20}
       />
-      <SlideUpText textA={"Toko Pakan Lele"} textB={"Jakarta Selatan"} containerClass={"!text-red-300"} />
+      <SlideUpText textA={"Toko Pakan Lele"} textB={"Jakarta Selatan"} containerClass={"!text-gray-500"} />
     </div>
 
     <div>
       <Button
-        label={"Show Modal"}
+        label={"Hapus Item"}
         on:click={() => {
           openModal = true;
         }}
