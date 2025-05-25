@@ -14,6 +14,8 @@ export default {
     paths: {
       base: dev ? '' : repoName,
     },
-   prerender: true
+     prerender: {
+      entries: ['*']  // artinya semua halaman yang bisa di-prerender, akan di-prerender
+    }
   }
 };
