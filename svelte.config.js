@@ -9,7 +9,7 @@ export default {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: null, // atau 'index.html' jika perlu SPA fallback
+      fallback: 'index.html' 
     }),
     paths: {
       base: dev ? '' : repoName,
