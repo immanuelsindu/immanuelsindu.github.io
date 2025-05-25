@@ -1,13 +1,14 @@
 <script>
   import "../app.css";
+  import { page } from "$app/state";
 
   import Header from "$lib/views/Header.svelte";
-  import Sidebar from "$lib/views/Sidebar.svelte";
+  import Sidebar from "$lib/views/Sidebar/Sidebar.svelte";
+  import { onMount } from "svelte";
 
-  let sidebarCollapse = true;
+  let sidebarCollapse = false;
 </script>
 
-<!-- bg-gradient-to-br from-[#FFE1E0] via-[#F49BAB] to-[#7F55B1] -->
 <div class="flex relative bg-[#7F55B1]/50">
   <Sidebar bind:sidebarCollapse />
   <div
@@ -16,8 +17,8 @@
   >
     <Header bind:sidebarCollapse />
 
-    <main class="h-full">
+    <div class="h-full z-1">
       <slot />
-    </main>
+    </div>
   </div>
 </div>
