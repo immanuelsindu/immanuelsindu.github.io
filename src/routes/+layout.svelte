@@ -1,6 +1,5 @@
 <script>
   import "../app.css";
-  export const prerender = true;
 
   import Header from "$lib/views/Header.svelte";
   import Sidebar from "$lib/views/Sidebar/Sidebar.svelte";

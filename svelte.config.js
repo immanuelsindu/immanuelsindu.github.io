@@ -14,8 +14,6 @@ export default {
     paths: {
       base: dev ? '' : repoName,
     },
-    prerender: {
-      default: true,
-    }
+   prerender: true
   }
 };
