@@ -4,43 +4,4 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* 
- .tooltip-arrow {
-    @apply absolute w-0 h-0;
-  }
 
-  [data-position="top"] .tooltip-arrow {
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid white;
-  }
-
-  [data-position="bottom"] .tooltip-arrow {
-    top: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid white;
-  }
-
-  [data-position="left"] .tooltip-arrow {
-    right: -5px;
-    top: 50%;
-    transform: translateY(-50%);
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid white;
-  }
-
-  [data-position="right"] .tooltip-arrow {
-    left: -5px;
-    top: 50%;
-    transform: translateY(-50%);
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-right: 5px solid white;
-  } */
