@@ -7,7 +7,6 @@
   let sidebarCollapse = false;
 </script>
 
-export const prerender = true;
 <div class="flex relative bg-[#7F55B1]/50">
   <Sidebar bind:sidebarCollapse />
   <div
