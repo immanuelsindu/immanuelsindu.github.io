@@ -7,7 +7,6 @@
 
   let indicatorTop = $state(0);
   let itemRefs = $state([]);
-  //   let selectedMenu = $state(sidebarMenu[0]);
 
   $effect(() => {
     updateIndicatorPosition();
@@ -22,13 +21,15 @@
   };
 
   onMount(() => {
-    updateIndicatorPosition();
+    // updateIndicatorPosition();
   });
 </script>
 
-<div class="absolute left-[0px] justify-center transition-all duration-500 ease-in-out" style="top: {indicatorTop}px">
-  <div class={`h-[25px] border-[2px] border-white mt-[7px]`}></div>
-</div>
+{#if Object.keys(selectedMenu)?.length}
+  <div class="absolute left-[0px] justify-center transition-all duration-500 ease-in-out" style="top: {indicatorTop}px">
+    <div class={`h-[25px] border-[2px] border-white mt-[7px]`}></div>
+  </div>
+{/if}
 
 <div class="flex flex-col gap-1">
   {#each sidebarMenu as item, index}
@@ -43,7 +44,9 @@
           }
         }}
       >
-        <Icon icon={item.icon} width="24" height="24" />
+        <span class="w-[24px] h-[24px] flex items-center justify-center">
+          <Icon icon={item.icon} width={item.iconSize || 24} height={item.iconSize || 24} />
+        </span>
         <p>{item.label}</p>
       </button>
     {/key}

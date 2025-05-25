@@ -1,30 +1,17 @@
 <script>
-  let isHover = false;
   import SlideUpText from "$lib/components/SlideUpText.svelte";
-  import { fly, fade } from "svelte/transition";
+  import { fly } from "svelte/transition";
   import Icon from "@iconify/svelte";
   import Button from "$lib/components/Button.svelte";
   import Modal from "$lib/components/Modal.svelte";
   import RenderImage from "$lib/components/RenderImage.svelte";
+  import Container from "$lib/views/Container/Container.svelte";
 
   let openModal = false;
 </script>
 
-<div class="h-[calc(100vh-48px)] p-3 relative">
+<Container>
   <div class="space-y-2">
-    <div class="flex gap-1">
-      <RenderImage src={"https://images.tokopedia.net/img/official_store/badge_os.png"} width={25} height={20} />
-      <SlideUpText textA={"Toko Ramai Mall"} textB={"Daerah Istimewa Yogyakarta"} containerClass={"!text-white"} />
-    </div>
-    <div class="flex gap-1">
-      <RenderImage
-        src={"https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/Power%20Merchant%20Pro.png"}
-        width={25}
-        height={20}
-      />
-      <SlideUpText textA={"Toko Pakan Lele"} textB={"Jakarta Selatan"} containerClass={"!text-white"} />
-    </div>
-
     <div>
       <Button
         label={"Hapus Item"}
@@ -84,4 +71,4 @@
       </div>
     </div>
   </Modal>
-</div>
+</Container>

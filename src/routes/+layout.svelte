@@ -1,10 +1,8 @@
 <script>
   import "../app.css";
-  import { page } from "$app/state";
 
   import Header from "$lib/views/Header.svelte";
   import Sidebar from "$lib/views/Sidebar/Sidebar.svelte";
-  import { onMount } from "svelte";
 
   let sidebarCollapse = false;
 </script>
