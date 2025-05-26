@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview"
+    // "build": "vite build",
+    "preview": "vite preview",
+    "build": "[my-framework] build --output public"
   },
   "devDependencies": {
     "@iconify/svelte": "^5.0.0",
