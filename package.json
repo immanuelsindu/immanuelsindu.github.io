@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "preview": "vite preview",
-    "build": "[my-framework] build --output public"
+    "build": "vite build --outDir public"
   },
   "devDependencies": {
     "@iconify/svelte": "^5.0.0",
